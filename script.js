@@ -141,3 +141,39 @@ card9.addEventListener("mouseleave", function () {
     img9.src = originalSrc9;
     text9.style.color = "black";
 });
+
+const artikel1 = document.getElementById("artikel1");
+const artimg1 = artikel1.querySelector("img");
+const artext1 = artikel1.querySelector("h3")
+
+artikel1.addEventListener("mouseenter", function () {
+    artext1.style.color = "green";
+    artext1.style.transition = "color 0.2s ease-in-out";
+})
+artikel1.addEventListener("mouseleave", function () {
+    artext1.style.color = "black";
+})
+
+const artikel2 = document.getElementById("artikel2");
+const artimg2 = artikel2.querySelector("img");
+const artext2 = artikel2.querySelector("h3")
+
+artikel2.addEventListener("mouseenter", function () {
+    artext2.style.color = "green";
+    artext2.style.transition = "color 0.2s ease-in-out";
+})
+artikel2.addEventListener("mouseleave", function () {
+    artext2.style.color = "black";
+})
+
+const artikel3 = document.getElementById("artikel3");
+const artimg3 = artikel3.querySelector("img");
+const artext3 = artikel3.querySelector("h3")
+
+artikel3.addEventListener("mouseenter", function () {
+    artext3.style.color = "green";
+    artext3.style.transition = "color 0.2s ease-in-out";
+})
+artikel3.addEventListener("mouseleave", function () {
+    artext3.style.color = "black";
+})
