@@ -175,6 +175,7 @@ artikel2.addEventListener("mouseleave", function () {
 const artikel3 = document.getElementById("artikel3");
 const artimg3 = artikel3.querySelector("img");
 const artext3 = artikel3.querySelector("h3")
+const artext4 = artikel3.querySelector("h3")
 
 artikel3.addEventListener("mouseenter", function () {
     artext3.style.color = "green";
