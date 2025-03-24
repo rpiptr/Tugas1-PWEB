@@ -14,6 +14,10 @@ card1.addEventListener("mouseleave", function () {
     text1.style.color = "black";
 });
 
+card1.addEventListener("click", function () {
+    window.location.href = "resep.html";
+});
+
 const card2 = document.getElementById("card2");
 const img2 = card2.querySelector("img");
 const text2 = card2.querySelector("h3");
@@ -28,6 +32,10 @@ card2.addEventListener("mouseenter", function () {
 card2.addEventListener("mouseleave", function () {
     img2.src = originalSrc2;
     text2.style.color = "black";
+});
+
+card2.addEventListener("click", function () {
+    alert("Resep Tumis Genjer Taoco telah dipilih!");
 });
 
 const card3 = document.getElementById("card3");
