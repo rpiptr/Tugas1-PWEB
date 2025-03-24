@@ -187,5 +187,3 @@ artikel3.addEventListener("mouseleave", function () {
     artext3.style.color = "black";
     artimg3.style.transform = "scale(1)";
 })
-
-const lorem = document.getElementById("lorem");
