@@ -160,6 +160,7 @@ body{
     color: green;
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .bold{
