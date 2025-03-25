@@ -15,7 +15,7 @@ card1.addEventListener("mouseleave", function () {
 });
 
 card1.addEventListener("click", function () {
-    window.location.href = "resep.html";
+    window.location.href = "resep-bakso.html";
 });
 
 const card2 = document.getElementById("card2");
