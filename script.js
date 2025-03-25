@@ -193,6 +193,10 @@ artikel1.addEventListener("mouseleave", function () {
     artimg1.style.transform = "scale(1)";
 })
 
+artikel1.addEventListener("click", function () {
+    alert("Artikel 10 Aneka Tumisan Sayur telah diklik!");
+});
+
 const artikel2 = document.getElementById("artikel2");
 const artimg2 = artikel2.querySelector("img");
 const artext2 = artikel2.querySelector("h3")
@@ -207,6 +211,10 @@ artikel2.addEventListener("mouseleave", function () {
     artext2.style.color = "black";
     artimg2.style.transform = "scale(1)";
 })
+
+artikel2.addEventListener("click", function () {
+    alert("Artikel 10 Ide Juallan Kekinian telah diklik!");
+});
 
 const artikel3 = document.getElementById("artikel3");
 const artimg3 = artikel3.querySelector("img");
@@ -223,3 +231,7 @@ artikel3.addEventListener("mouseleave", function () {
     artext3.style.color = "black";
     artimg3.style.transform = "scale(1)";
 })
+
+artikel3.addEventListener("click", function () {
+    alert("Artikel 11 Resep Ayam Goreng Restoran telah diklik!");
+});
