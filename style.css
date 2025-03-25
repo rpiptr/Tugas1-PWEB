@@ -57,6 +57,7 @@ body{
     overflow: hidden;
     text-align: center;
     width: 400px;
+    cursor: pointer;
 }
 
 .card h3{

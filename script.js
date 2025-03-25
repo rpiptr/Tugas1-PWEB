@@ -35,7 +35,7 @@ card2.addEventListener("mouseleave", function () {
 });
 
 card2.addEventListener("click", function () {
-    alert("Resep Tumis Genjer Taoco telah dipilih!");
+    alert("Resep Tumis Genjer Taoco telah diklik!");
 });
 
 const card3 = document.getElementById("card3");
@@ -54,6 +54,10 @@ card3.addEventListener("mouseleave", function () {
     text3.style.color = "black";
 });
 
+card3.addEventListener("click", function () {
+    alert("Resep Sayur Sop Bening telah diklik!");
+});
+
 const card4 = document.getElementById("card4");
 const img4 = card4.querySelector("img");
 const text4 = card4.querySelector("h3");
@@ -68,6 +72,10 @@ card4.addEventListener("mouseenter", function () {
 card4.addEventListener("mouseleave", function () {
     img4.src = originalSrc4;
     text4.style.color = "black";
+});
+
+card4.addEventListener("click", function () {
+    alert("Resep Tempe Goreng Tepung telah diklik!");
 });
 
 const card5 = document.getElementById("card5");
@@ -86,6 +94,10 @@ card5.addEventListener("mouseleave", function () {
     text5.style.color = "black";
 });
 
+card5.addEventListener("click", function () {
+    alert("Resep Kikil Pedas Manis telah diklik!");
+});
+
 const card6 = document.getElementById("card6");
 const img6 = card6.querySelector("img");
 const text6 = card6.querySelector("h3");
@@ -100,6 +112,10 @@ card6.addEventListener("mouseenter", function () {
 card6.addEventListener("mouseleave", function () {
     img6.src = originalSrc6;
     text6.style.color = "black";
+});
+
+card6.addEventListener("click", function () {
+    alert("Resep Ayam Sambal Matah Bali telah diklik!");
 });
 
 const card7 = document.getElementById("card7");
@@ -118,6 +134,10 @@ card7.addEventListener("mouseleave", function () {
     text7.style.color = "black";
 });
 
+card7.addEventListener("click", function () {
+    alert("Resep Nasi Goreng Kunyit telah diklik!");
+});
+
 const card8 = document.getElementById("card8");
 const img8 = card8.querySelector("img");
 const text8 = card8.querySelector("h3");
@@ -134,6 +154,10 @@ card8.addEventListener("mouseleave", function () {
     text8.style.color = "black";
 });
 
+card8.addEventListener("click", function () {
+    alert("Resep Ayam Suwir Kemangi Pedas telah diklik!");
+});
+
 const card9 = document.getElementById("card9");
 const img9 = card9.querySelector("img");
 const text9 = card9.querySelector("h3");
@@ -148,6 +172,10 @@ card9.addEventListener("mouseenter", function () {
 card9.addEventListener("mouseleave", function () {
     img9.src = originalSrc9;
     text9.style.color = "black";
+});
+
+card9.addEventListener("click", function () {
+    alert("Resep Seblak Pedas Gurih telah diklik!");
 });
 
 const artikel1 = document.getElementById("artikel1");
