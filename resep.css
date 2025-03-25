@@ -91,3 +91,77 @@ body{
     padding-bottom: 20px;
     font-size: 21px;
 }
+
+#con2{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+#bahan{
+    width: 580px;
+}
+
+#bahan h2{
+    font-size: 38px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+#cara{
+    padding-left: 36px;
+}
+
+#cara h2{
+    font-size: 38px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+#cara ol li::marker{
+    color: #ff4800;
+    font-weight: bolder;
+    font-size: 33px;
+}
+
+#cara ol{
+    padding-left: 35px;
+}
+
+#cara li{
+    font-size: 23px;
+    margin-bottom: 50px;
+    padding-left: 8px;
+}
+
+.custom-list {
+    list-style: none; 
+    padding-left: 0;
+    font-size: 18px;
+}
+
+.custom-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.highlight {
+    color: #ff4800;
+    font-weight: bold;
+    font-size: 22px;
+    min-width: 40px;
+    text-align: right;
+}
+
+.green-text {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
